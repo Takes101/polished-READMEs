@@ -38,13 +38,13 @@ function generateMarkdown(data) {
   The GitHub license for this application is ${data.license}
 
   # Contributing
-  Contributors: ${data.contributing}
+  Contributors: ${data.contribution}
 
   # Test
   To run tests: ${data.test}
 
   # Questions
-  If any questions remain, contact ${data.email} or ${data.username}
+  If any questions remain, contact ${data.email} or ${data.username} on GitHub
 `;
 }
 

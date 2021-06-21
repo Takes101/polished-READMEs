@@ -4,6 +4,9 @@
 # Description
 This application allows developers to create professional README files with ease. Once the appliaction is initiated in the command line using "node index.js", answer the questions that appear to formulate your very own README.md
 
+# Sample README.md
+https://drive.google.com/file/d/1vITheNao4R2oznzxGhGNMtpGZsT8wtA9/view
+
 # Installation
 Install npm inquirer:
 https://www.npmjs.com/package/inquirer
