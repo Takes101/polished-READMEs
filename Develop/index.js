@@ -64,7 +64,7 @@ const questions = () => {
         {
             type: 'input',
             name: 'contribution',
-            message: 'What are the contribution guidelines of this project?',
+            message: 'Who are the contributors of this project?',
             validate: contributing => {
                 if (contributing) {
                     return true;
@@ -131,7 +131,7 @@ const questions = () => {
 };
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    fs.writeFile(fileName, data, function(err) {
+    fs.writeFile('./index.html' , fileName, data, function(err) {
         console.log(fileName);
         console.log(data);
         if(err) {
